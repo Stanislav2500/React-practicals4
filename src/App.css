@@ -1,0 +1,82 @@
+/* Общие стили */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Темы */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Компоненты */
+.header {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.header.light {
+  background-color: #f0f0f0;
+  border-bottom-color: #ccc;
+}
+
+.header.dark {
+  background-color: #333333;
+  border-bottom-color: #666;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer {
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.footer.light {
+  background-color: #f0f0f0;
+  border-top-color: #ccc;
+}
+
+.footer.dark {
+  background-color: #333333;
+  border-top-color: #666;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.light button {
+  background-color: #007bff;
+  color: white;
+}
+
+.light button:hover {
+  background-color: #0056b3;
+}
+
+.dark button {
+  background-color: #444444;
+  color: white;
+}
+
+.dark button:hover {
+  background-color: #666666;
+}
