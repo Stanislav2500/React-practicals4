@@ -1,11 +1,9 @@
-/* Общие стили */
 .app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Темы */
 .light {
   background-color: #ffffff;
   color: #000000;
@@ -16,7 +14,6 @@
   color: #ffffff;
 }
 
-/* Компоненты */
 .header {
   padding: 1rem;
   border-bottom: 1px solid #ccc;
